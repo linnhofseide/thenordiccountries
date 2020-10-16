@@ -1,0 +1,210 @@
+body{
+	font-family: Helvetica;
+	background-color: white;
+	color: black;
+	padding-left: 100px;
+	padding-right: 100px;
+	line-height: 2;
+}
+
+.northerncountries{
+	padding-right:25%;
+	padding-left: 25%;
+}
+ a.no,a.se,a.dk,a.is, a.fi{
+	padding: 35px;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+.norway, .sweden, .denmark, .finland, .iceland{
+	font-size: 18px;
+}
+
+.meny{
+	float: right;
+}
+ a.meny{
+display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 14px;
+  color: black;
+ }
+ a.meny:hover{
+ 	text-decoration: underline;
+ }
+
+  a.mainmenu{
+ 	display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  color: currentColor;
+  float: left;
+ }
+
+.norway h1, .denmark h1, .sweden h1, .iceland h1, .finland h1{
+	text-align: center;
+	font-size: 40px;
+}
+h1.thenortherncountries{ font-size: 40px;
+	color: black;
+	text-align: center;
+	padding-bottom: 20px;
+ }
+ a.no,a.se, a.dk, a.fi, a.is{
+ 	color: black;
+ }
+  a.no:hover,a.se:hover, a.dk:hover, a.fi:hover, a.is:hover{
+  	background-color: silver;
+
+ }
+a.wiki{
+	color:black;
+}
+
+a.wiki:hover{
+	color:grey;
+}
+a.colorlink{ 
+	color: black;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 20%;
+	margin-bottom: 2%;
+}
+a.colorlink:hover{
+	color: #292929;
+}
+ a.mainmenu:hover{
+ 	text-decoration: underline;
+ }
+
+a.colorlinkmain{ 
+	color: black;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 20%;
+	margin-bottom: 2%;
+}
+a.colorlinkmain:hover{
+	color: gray;
+}
+
+ @media only screen and (max-width: 909px) {
+
+ 	body{
+ 		padding-left: 20px;
+ 		padding-right: 20px;
+ 	}
+
+
+
+  	.norway, .denmark, .sweden, .iceland, .finland{
+	text-align: left;
+	font-size: 17px;
+	padding: none;
+}
+
+h1.norway, h1.denmark, h1.finland, h1.sweden, h1.iceland{
+	text-align: left;
+	padding: 2px;
+}
+
+ a.meny{
+display: none;
+ }
+
+ a.mainmenu{
+
+ 	display: none;
+ }
+
+ .dropbutton {
+ 	background-color: transparent;
+ 	font-weight: bold;
+  color: currentColor;
+  padding: 5px;
+  padding-bottom: 10px; 
+  font-size: 16px;
+  border: none;
+}
+
+ .dropmenu {
+
+  position: relative;
+  display: inline-block;
+}
+
+.dropmenulink {
+  display: none;
+  position: absolute;
+  min-width: 140px;
+  box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.3);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropmenulink a{ color: black;}
+
+.dropmenu:hover .dropmenulink {display: block;
+	background-color: whitesmoke;
+color: black;}
+
+/* inspirasjon til dropdown-menyen hentet fra https://www.w3schools.com/howto/howto_css_dropdown.asp*/
+
+}
+
+@media only screen and (max-width: 500px) {
+	p{
+		font-size: 17px;
+	}
+	body{
+		padding: 4px;
+
+	}
+
+	h1{
+		padding: 2px;
+	}
+
+	
+}
+
+
+
+
+  	@media only screen and (min-width: 910px) {
+
+  		.dropmenu{
+  			display: none;
+  		}
+
+  	}
+
+@media only screen and (min-width: 1200px){
+	p{
+		padding-left: 110px;
+		padding-right: 110px;
+	}
+}
+
+
+  	
+
+  	
