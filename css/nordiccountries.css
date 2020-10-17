@@ -5,7 +5,10 @@
 }
 body{
 	font-family: Helvetica;
-}
+ 	padding-left: 100px;
+	padding-right: 100px;
+	line-height: 2;
+ }
 
 h1.thenordiccountries{ font-size: 40px;
 	color: black;
