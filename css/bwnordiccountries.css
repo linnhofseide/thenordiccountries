@@ -29,7 +29,7 @@ a.no:hover, a.dk:hover, a.se:hover, a.fi:hover, a.is:hover{
 	background-color: whitesmoke;
 	color: black;
 }
-a.bwlinkmain{ 
+a.colorlinkmain{ 
 	color: black;
 	font-weight: bold;
 	display: block;
@@ -38,7 +38,7 @@ a.bwlinkmain{
 	margin-top: 20%;
 	margin-bottom: 2%;
 }
-a.bwlinkmain:hover{
+a.colorlinkmain:hover{
 	color: gray;
 }
 @media only screen and (max-width: 500px) {
