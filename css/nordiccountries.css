@@ -24,33 +24,23 @@ h1.thenordiccountries{ font-size: 40px;
 a.no{
 	background-color: #cf3838;
 	color: #040133;
-	display: block;
-	text-align: center;
 }
 a.se{
 	background-color: #4643d9;
 	color:#e3d730;
-	display: block;
-	text-align: center;
 }
 a.dk{
 	background-color: #cf3838;
 	color: white;
-	display: block;
-	text-align: center;
 }
 a.is{ 
 	background-color: #4643d9;
 	color:#8c0101;
-	display: block;
-	text-align: center;
 
 }
 a.fi{ 
 	background-color: #ffffff;
 	color: #2528cc;
-	display: block;
-	text-align: center;
 
 }
 a.no:hover, a.dk:hover{
