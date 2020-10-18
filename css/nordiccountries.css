@@ -66,6 +66,7 @@ a.bwlinkmain:hover{
 	color: gray;
 }
 @media only screen and (max-width: 500px) {
+	h1.thenordiccountries{font-size: 30px;}
 	p{
 		font-size: 17px;
 	}
@@ -74,7 +75,6 @@ a.bwlinkmain:hover{
 		padding-right: 15;
 
 	}
-	h1{font-size: 32px;}
 
 }
 
